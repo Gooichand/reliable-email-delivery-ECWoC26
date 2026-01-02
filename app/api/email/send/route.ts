@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
       to,
       subject,
       body: emailBody || "Email sent via template builder",
-      from: "harshithaarava31@gmail.com", // Resend's verified sender for testing
+      from: "onboarding@resend.dev", // Resend's default verified domain
       html: html || `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px;">
